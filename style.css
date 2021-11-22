@@ -51,5 +51,12 @@ h1 {
 .cardSize {
   width: 80px;
   height: 100px;
-  margin:20px;
+  margin: 20px;
+}
+
+.score-area {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  color: red;
 }
