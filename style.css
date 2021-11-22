@@ -1,0 +1,55 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 75%;
+  margin: auto;
+  border: 3px solid black;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+.game-container {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  background-image: url("./images/table-bg.jpg");
+}
+.main p:nth-of-type(1) {
+  display: flex;
+  justify-content: center;
+}
+
+.player-area {
+  width: 100%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-flow: wrap;
+}
+
+.bot-area {
+  width: auto;
+  width: 100%;
+  border: 2px solid black;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+.btn-group {
+  display: flex;
+  gap: 20px;
+}
+
+.cardSize {
+  width: 80px;
+  height: 100px;
+  margin:20px;
+}
